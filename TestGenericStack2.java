@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestGenericStack2 {
 	public static void main(String[] args) {
-		GenericStack<String> stack1 = new GenericStack<>();
+		GenericStack2<String> stack1 = new GenericStack2<>();
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i < 5; i++) {
 			System.out.println("Element " + (i + 1) +":");
